@@ -1,9 +1,6 @@
 import random
 
-ls = list(map(int, input().split()))
-N = ls[0]
-K = ls[1]
-M = ls[2]
+N, K, M = list(map(int, input().split()))
 ans = 0
 
 if K >= M:
