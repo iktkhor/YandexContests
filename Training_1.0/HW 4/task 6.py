@@ -11,7 +11,6 @@ with open('input.txt') as text:
             buyers[name][product] = 0
         buyers[name][product] += int(amount)
 
-        #print(buyers[name][product])
 for buyer in sorted(buyers.keys()):
     print(buyer + ':')
     for item in sorted(buyers[buyer].keys()):
